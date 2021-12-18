@@ -2,4 +2,4 @@ blank_issues_enabled: false
 contact_links:
   - name: 🙋 Ask questions on Stack Overflow (preferred)
     url: https://stackoverflow.com/questions/tagged/hdb-viz
-    about: Ask structured and fully-formed questions about `hdb-viz`.
+    about: Ask structured and fully-formed questions about hdb-viz.
