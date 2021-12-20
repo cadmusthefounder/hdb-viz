@@ -37,8 +37,8 @@ warn_unused_ignores = false
 warn_redundant_casts = true
 warn_unused_configs = true
 
-[tool.bandit]
-skips = ["B104", "B301", "B403"]
+[tool.pylint.master]
+ignore = "tests"
 
 [tool.pylint.messages_control]
 disable = "C0330, C0326"

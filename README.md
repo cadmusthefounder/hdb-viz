@@ -12,6 +12,12 @@
     <img alt="License: Apache 2.0" src=
     "https://img.shields.io/badge/license-Apache--2.0-green">
   </a>
+  <a href=
+  "https://circleci.com/gh/cadmusthefounder/hdb-viz/tree/master"
+  >
+    <img alt="CircleCI" src=
+    "https://circleci.com/gh/cadmusthefounder/hdb-viz/tree/master.svg?style=shield">
+  </a>
 </p>
 
 HDB visualization is a data visualization dashboard to make sense of HDB data.
