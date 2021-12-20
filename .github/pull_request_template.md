@@ -16,12 +16,13 @@ What kind of change does this PR introduce?
 
 - [ ] Bug Fix
 - [ ] Feature
-- [ ] Refactoring (formatting, no functional changes, no api changes)
-- [ ] Build related changes
-- [ ] CI related changes
-- [ ] Tests related changes
-- [ ] Documentation content changes
-- [ ] Performance improvements
+- [ ] Documentation
+- [ ] Style
+- [ ] Refactor
+- [ ] Performance
+- [ ] Tests
+- [ ] Build
+- [ ] CI
 - [ ] Other... Please describe:
 
 ## What is the current behavior?
