@@ -2,7 +2,7 @@ import streamlit as st
 
 from hdb_viz.constants import Page
 from hdb_viz.settings import Settings
-from hdb_viz.views import upload_dataset, visualize_dataset
+from hdb_viz.views import upload_dataset, upload_dataset_2, visualize_dataset
 
 
 def set_default_session_state(settings: Settings):
@@ -40,6 +40,8 @@ def main():
 
     if Page(selected_page) is Page.UPLOAD_DATASET:
         upload_dataset.load_content(settings)
+    elif Page(selected_page) is Page.UPLOAD_DATASET_2:
+        upload_dataset_2.load_content(settings)
     elif Page(selected_page) is Page.VISUALIZE_DATASET:
         visualize_dataset.load_content(settings)
     else:
