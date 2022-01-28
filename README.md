@@ -21,3 +21,15 @@
 </p>
 
 HDB visualization is a data visualization dashboard to make sense of HDB data.
+
+## Instructions
+
+1. Ensure python3.8 is installed (using `pyenv` for example).
+2. Install `poetry`
+3. Do this:
+
+```
+# git clone
+poetry install
+poetry run streamlit run hdb_viz/app.py
+```
