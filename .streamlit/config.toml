@@ -1,0 +1,11 @@
+# Full configurations here: https://docs.streamlit.io/library/advanced-features/configuration#set-configuration-options
+[server]
+
+# The port where the server will listen for browser connections.
+# Default: 8501
+port = 8501
+
+
+# Max size, in megabytes, for files uploaded with the file_uploader.
+# Default: 200
+maxUploadSize = 200
